@@ -1,4 +1,4 @@
-# .github/workflows/**main.yml**
+# .github/workflows/**yamdb_workflow.yml**
 name: Django-app workflow
 
 on: [push]
@@ -34,3 +34,5 @@ jobs:
       run: |
         # запуск проверки проекта по flake8
         python -m flake8
+        # запуск pytest
+        pytest
