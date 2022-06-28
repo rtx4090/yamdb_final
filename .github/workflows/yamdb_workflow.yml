@@ -59,7 +59,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: rtx3090/infra_web:latest
+          tags: rtx3090/infra_web
 
   deploy:
     runs-on: ubuntu-latest
