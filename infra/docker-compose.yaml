@@ -8,8 +8,10 @@ services:
     env_file:
       - ./.env
   web:
-    build: ../api_yamdb
+    image: rtx3090/infra_web
     restart: always
+    ports:
+      - "8000:8000"
     volumes:
       - static_value:/app/static/
       - media_value:/app/media/
