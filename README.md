@@ -134,6 +134,17 @@ POST-запрос на специальный эндпоинт `/api/v1/users/` 
   определённому отзыву.
 
 
+## .env наполнение 
+
+``` 
+DB_ENGINE=django.db.backends.postgresql 
+DB_NAME=postgres 
+POSTGRES_USER=postgres 
+POSTGRES_PASSWORD=postgres 
+DB_HOST=db 
+DB_PORT=5432 
+``` 
+
 ## Документация
 После запуска проекта - по адресу: `http://127.0.0.1:8000/redoc/` доступна 
 документация.
@@ -143,3 +154,6 @@ POST-запрос на специальный эндпоинт `/api/v1/users/` 
 - Андрей Распутин https://github.com/rasputin-pro
 - Кирилл Сухарев https://github.com/Soliton80
 - Александр Корнеев https://github.com/rtx4090
+
+## Развернутый проект:
+`http://51.250.109.14/api/v1/`
