@@ -62,6 +62,7 @@ jobs:
             key: ${{ secrets.SSH_KEY }}
             passphrase: ${{ secrets.PASSPHRASE }}
             script: |
+              sudo service nginx stop
               sudo docker-compose stop
               sudo docker-compose rm web
               touch .env
