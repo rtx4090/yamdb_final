@@ -8,7 +8,7 @@ services:
     env_file:
       - ./.env
   web:
-    image: akorneev0/yamres:latest
+    image: akorneev0/yamdba:latest
     restart: always
     volumes:
       - static_value:/app/static/
