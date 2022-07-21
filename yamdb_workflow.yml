@@ -45,8 +45,10 @@ build_and_push_to_docker_hub:
       - name: Push to Docker Hub
         uses: docker/build-push-action@v2
         with:
+          context: .
           push: true
           tags: akorneev0/yamdba:latest
+          file: api_yamdb/Dockerfile
 deploy:
     runs-on: ubuntu-latest
     needs: build_and_push_to_docker_hub
