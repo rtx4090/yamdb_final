@@ -69,8 +69,6 @@ DATABASES = {
 }
 
 
-DATABASE_URL = 'postgresql://<postgresql>'
-
 AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME': 'django.contrib.auth.password_validation.'
