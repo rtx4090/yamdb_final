@@ -2,6 +2,7 @@
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![DjangoREST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray)
+![Yamdb Workflow Status](https://github.com/rasputin-pro/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 ___
 Проект **API YaMDb** собирает **отзывы** (**Review**) пользователей **на 
 произведения** (**Titles**). Произведения делятся на категории: «Книги», 
