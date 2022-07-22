@@ -133,13 +133,31 @@ POST-запрос на специальный эндпоинт `/api/v1/users/` 
 - Ресурс comments: комментарии к отзывам. Комментарий привязан к 
   определённому отзыву.
 
+  ## .env наполнение  
 
-## Документация
-После запуска проекта - по адресу: `http://127.0.0.1:8000/redoc/` доступна 
-документация.
+```  
 
+DB_ENGINE=django.db.backends.postgresql  
+
+DB_NAME=postgres  
+
+POSTGRES_USER=postgres  
+
+POSTGRES_PASSWORD=postgres  
+
+DB_HOST=db  
+
+DB_PORT=5432  
+
+SECRET_KEY=p&l%385148kslhtyn^##a1)ilz@4zqj=rq&agdol^##zgl9(vs
+
+```  
 
 ## Над проектом работали:
 - Андрей Распутин https://github.com/rasputin-pro
 - Кирилл Сухарев https://github.com/Soliton80
 - Александр Корнеев https://github.com/rtx4090
+
+## Развернутый проект можно посмотреть по ссылке:
+
+http://51.250.109.14/api/v1/
